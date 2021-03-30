@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#mbajtesiw{
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid orangered;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 40px;
+    background-color:gainsboro;
+}
+#main{
+    width: 100%;
+    min-height: 400px;
+    background-color: gray;
+}
+#footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: greenyellow ;
+}
+/*-----------------------------------------*/
+#head_m> ul li img{
+    height: 30px;
+}
+#head_m ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+#head_m ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    border-bottom: 2px solid black;
+}
+/*-----------------------------------------*/
+/*duhet permirsuar*/
+#head_d{
+    display: flex;
+   align-items: right;
+   justify-content: right;
+}
+
+#head_d ul{
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#head_d ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    border-bottom: 2px solid black;
+}

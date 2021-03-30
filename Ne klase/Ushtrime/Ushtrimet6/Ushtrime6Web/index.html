@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ushtrimet 5</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+
+  
+
+
+
+</head>
+
+<body>
+  <div class="header">
+    <img id="ubtlogo" class="headerPhoto" src="UBT-LOGO.png" alt="UBT Logo" />
+    <ul class="headerList">
+      <li id="item">Home</li>
+      <li id="item">About us</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="link-container">
+      <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+      <a href="#" onclick="changeForm(1)">Register</a>
+    </div>
+    <form id="mainForm" action="">
+      <div class="login forms form-style">
+        <label for="">Username:</label>
+        <input type="text" class="input" placeholder="username..." />
+        <label for="">Password:</label>
+        <input type="password" class="input" placeholder="password..." />
+        <input id="submit" type="submit" class="input submit" value="Login" onclick="validate(0)" />
+      </div>
+      <div class="register forms hidden">
+        <label for="">Name:</label>
+        <input type="text" class="input" placeholder="username..." />
+        <label for="">Lastname:</label>
+        <input type="text" class="input" placeholder="password..." />
+        <label for="">Password:</label>
+        <input type="text" class="input" placeholder="password..." />
+        <input id="submit" type="submit" class="input submit" value="Login" onclick="validate(1)" />
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <i>&copy;</i>
+
+    <h3>UBT - Prill 2020</h3>
+  </div>
+
+
+  <script>
+    function validate(number){
+      var inputaelements=document.getElementsByClassName('input');
+     
+     
+       if(number=0){
+         //qasju elementeve te para
+         var usernameValue=inputElements[0].value;
+         var passwordValue=inputElements[1].value;
+       
+         if(usernameValue==user||passwordValue==pass){
+           alert("Nuk jane te dhenat e mbushura");
+         }
+         else{
+           alert("Login Success");
+
+         }
+        }
+       
+       else if(number==1){
+         //qasju elemeteve te dyta
+       }
+    }
+
+
+    function changeForm(number){
+      var format=document.getElementsByClassName('forms');
+      format[0].classList.remove("hidden");
+      format[0].classList.add("form-style");
+      format[1].classList.add("hidden");
+      format[1].classList.remove("form-style");
+    }
+  
+    else{
+      format[1].classList.remove("hidden");
+      format1[].classList.add("form-style");
+      format[0].classList.add("hidden");
+      format[0].classList.remove("form-style");
+    }
+  }
+   // console.log("dalje nga funksioni");
+    //var num=5;
+   
+   //var usernameValue=document.getElementById();
+  // var firstlink=document.querySelector(".link-conatainer>a");
+  // var a=document.getElementsByClassName("input");
+  // var b=document.getElementsByTagName("div");
+  // var x=document.getElementsByName("name");
+
+
+
+ 
+ //marrim vlerat e dy elementeve te para
+ 
+  console.log(inputElements);
+ 
+   
+  </script>
+
+
+</body>
+
+</html>

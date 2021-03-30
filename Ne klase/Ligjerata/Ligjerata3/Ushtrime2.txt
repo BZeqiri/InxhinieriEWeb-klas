@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>java 2</title>
+  </head>
+  <body bgcolor="lightblue">
+    <header>
+       <img src="download.jpg" alt="Logo e uBT-se"<p>Pajtohem plotesisht</p>
+       
+       <ol>
+           <li>lajme</li>
+           <li>Tekn</li>
+           <li>Sport</li>
+           <li>Shendetesi</li>
+       </ol>
+    </header>
+
+    
+    <main>
+        <fieldset>
+        <form>
+            Emri: <input type="text">
+            <br>
+            Mosha:<input type="number"/>
+            <br>
+            Data:<input type="date"/>
+            <br>
+            <input type="radio" name="gjinia"/> Male
+            <br>
+            <input type="radio" name="gjinia"/> Feemale
+            <br>
+            <select name="" id="">
+                <option value="Prishtine"> Prishtine</option>
+                <option value="Gjilan">Gjilan</option>
+                <option value="Mitrovice">Mitrovic</option>
+                <option value="Peje">Peje</option>
+            </select>
+        </form>
+        <br>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>9:00-10:30</th>
+                <th>10:40-12:10</th>
+                <th>12:20-13:50</th>
+                <th>14:00-15:30</th>
+                <th>15:40-17:10</th>
+            </tr>
+            <tr>
+                <th>E Hene</th>
+                <td colspan="2">Inxhinieri e WEB</td>
+                <td></td>
+                <td colspan="2">Labcourse1</td>
+            </tr>
+            <tr>
+                <th>E Marte</th>
+                <td colspan="5" rowspan="2">Pushim</td>
+            </tr>
+            <tr>
+                <th>E Merkure</th>
+            </tr>
+            <tr>
+                <th>E Enjte</th>
+                <td>Struktura Diskrete 2</td>
+                <td>Sistemet operative</td>
+                <td>Algoritmet</td>
+                <td colspan="2">Boll per sot</td>
+            </tr>
+            <br>
+        </table>
+        <br>
+        <fieldset>
+            <legend>Lendet</legend>
+        <ul>Inxhinieri e Web
+        <ul>
+            <li>HTML</li>
+            <li>CSS
+                <ul>
+                    <li>Inline</li>
+                    <li>internal</li>
+                    <li>External</li>
+                </ul>
+            </li>
+            <li>JS</li>
+            <li>PHP
+                <ul>
+                    <li>OOP</li>
+                    <li>Profesional</li>
+                </ul>
+            </li>
+        </ul>
+        </ul>
+    </fieldset>
+    </fieldset>
+    </main>
+    <footer></footer>
+    
+
+    
+    
+  </body>
+</html>

@@ -1,0 +1,55 @@
+/*<!--external css-->*/
+li{
+    display: inline;
+    
+}
+ul{
+    display: inline;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}  
+.red-link{
+    color: red;
+    padding: 10px;
+}      
+
+#header-link{
+   margin-left: 1100px;
+}
+p{
+    display: inline;
+    border: 1px solid black;
+}
+#first{
+    /*margin-left: 10px;*/
+    padding-left: 10px;
+}
+.form-element{
+    display: block;
+    margin:10px 0px;
+    font-size: 17px;
+}
+.forma{
+    background-color: lightblue;
+    margin: 200px 575px;
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    padding-left: 125px;
+}
+.form-links{
+   
+    border-right: 1px solid gray;
+    padding: 0 15px;
+    margin: 0px;
+    font-size: 19px;
+}
+.form-links:first-child{
+    border-left: 1px solid gray;
+}
+.father{
+    padding: 10px;
+}

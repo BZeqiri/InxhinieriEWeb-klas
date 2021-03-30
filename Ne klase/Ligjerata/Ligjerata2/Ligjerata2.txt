@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Listat ne HTML</title>
+<style>
+div{
+    width:500px;
+	min height:300px;
+	background color : aqua;
+	margin: auto;
+}
+</style>
+</head>
+
+<body bgcolor="aqua">
+  <div>
+    <h3>Listat e renditura</h3>
+	<ol>
+	    <li>SHK1</li>
+		<li>SI</li>
+		<li>MBE</li>
+	</ol>
+	
+	<h3>Listat e parenditura</h3>
+	<ul type="square">
+	    <li>Programim</li>
+		<li>Inxhinieri e WEB</li>
+		<li>Bazat e te dhenave</li>
+	</ul>
+	
+	<h3><em>Listat pershkruse</em></h3>
+	    <dt>HTML</dt>
+		  <dd>Hypertext Markup language</dd>
+		  <dt>BZ</dt>
+		  <dd>Besart Zeqiri</dd>
+    <h3>Lista te Shumefishta</h3>
+	   <ul>
+	     <li>MBE</li>
+		 <li>SHKI
+		    <ul>
+			  <li>Specializimet BSc
+			     <ul>
+				  <li>Inxhinieria Sistemeve Soufterike</li>
+				  <li>Programimi ne Ueb</li>
+				  <li>..............</li>
+				 </ul>
+			  </li>
+			<li>Specializimet MSc
+			  <ul>
+			   <li>Inxhinieria e Sistemeve ne Ueb</li>
+			   <li>Programimi ne Ueb</li>
+			   <li>Data Science</li>
+			   <li>..................</li>
+			  </ul>
+			</li>
+			</ul>
+		 </li>
+		 <li>SI</li>
+	   </ul>
+		
+		<h3>--------------------------------------------------------------------------------</h3>
+		
+		<h2>Tabekat ne HTML</h2>
+		<table>
+		  <tr>
+		    <td>10</td>
+			<td>20</td>
+			<td>30</td>
+		  </tr>
+		  <tr>
+		    <td>A</td>
+			<td>B</td>
+			<td>C</td>
+		  </tr>
+		 <tr>
+		    <td>A1</td>
+			<td>B2</td>
+			<td>C3</td>
+		   
+		 
+		 </tr>
+		</table>
+		<br>
+    <table>
+	  <tr>
+	    <th></th>
+		<th>E shtune</th>
+		<th>E Diele</th>
+	  </tr>
+	  <tr>
+	    <th>Biletat e shitura</th>
+		<td>120</td>
+		<td>135</td>
+	  </tr>
+	  <tr>
+	    <th>Shuma totale</th>
+		<td>600</td>
+		<td>675</td>
+	  </tr>
+	</table>
+	<br>
+	<h3>Tabela pa-korniza</hr>
+	<table>
+	  <tr>
+	    <th></th>
+		<th>9am</th>
+		<th>10am</th>
+		<th>11am</th>
+		<th>12am</th>
+	  </tr>
+	  <tr>
+	    <th>E Hene</th>
+		<td >U:inxh</td>
+		<td >U:inxh</td>
+		<td>L:Mat 2</td>
+		<td>U:Algoritme</td>
+	  </tr>
+	  <tr>
+	    <th>E Marte</th>
+		<td colspan="3">L:OOP</td>
+		<td>kampus</td>
+	  </tr>
+	</table>
+<br>
+<h3>Tabela me-korniza</h3>	
+    <table border>
+	  <tr>
+	    <th></th>
+		<th>9am</th>
+		<th>10am</th>
+		<th>11am</th>
+		<th>12am</th>
+	  </tr>
+	  <tr>
+	    <th>E Hene</th>
+		<td colspan="2">U:inxh e Ueb</td>
+		<td>L:Matematik</td>
+		<td>U:Hyrje ne Algoritme</td>
+	  </tr>
+	  <tr>
+	    <th>E Marte</th>
+		<td colspan="3">L:OOP</td>
+		<td>Kampus</td>
+		
+	  </tr>
+	</table>
+	<br>
+	<h3>---------------------------------------------------------------------------------</h3>
+	<form>
+	  <p>perdoruesi<input type="text" name="perdoruesi" size="15" maxlength="40"/></p>
+	  <p>Fjalkalimi<input type="password" name="fjalkali" size="15" maxlength="40"></p>
+	</form>
+	<br>
+  </div>
+</body>
+
+</html>

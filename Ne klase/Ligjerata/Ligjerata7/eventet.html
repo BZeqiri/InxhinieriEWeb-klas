@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventet e JS DOM</title>
+     <style>
+         body{
+             width: 100%;
+             min-height: 100%;
+             font-style: 'Segoe UI light' Tahoma, Geneva, Verdana, sans-serif;
+         }
+         #Mbajtesiweb{
+             display: flex;
+             flex-direction: column;
+             width: 50%;
+             min-height: 300px;
+             margin: 0 auto;
+             background-color: beige;
+         }
+     </style>
+     <script>
+        function shfaq(){
+               var lenda=document.getElementById('text01').value;
+               var mesazhi="<h2>Sot kemi ligjerata ne lenden: "+lenda+"</h2";
+               document.querySelector('#content').innerHTML=mesazhi;
+         }
+
+        
+     </script>
+</head>
+<body>
+    <div id="Mbajtesiweb">
+        <h2>JS DOM Eventes</h2>
+        <p>
+            Pershendetje
+            <input type="text" id="text01"/>
+            <br>
+            <button onclick="shfaq()">Kliko Eventin</button>
+         </p>
+         <div id="content">
+
+         </div>
+
+    </div>
+
+</body>
+
+</html>

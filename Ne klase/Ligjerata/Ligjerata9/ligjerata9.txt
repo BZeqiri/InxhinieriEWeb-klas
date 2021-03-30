@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{max-width:100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#main{max-width:60%;
+min-height: 400px;
+background-color:#66aaff;
+margin: 0 auto;
+text-align: center;}
+header {background-color: #889900;
+text-align: center;
+font-size: 16pt;}
+header a{padding:10px;
+margin: 10px;}
+</Style>
+</head>
+<body>
+<div id="main">
+<header>
+<a href="index.php/?page=1">Home</a>
+<a href="index.php/?page=2">Service</a>
+</header>
+<?php
+$url=$_GET['page'];
+switch ($url){
+case '1':
+include'inc/home.php';
+break;
+case '2':
+include'inc/service.php';
+break;
+default:
+include'inc/home.php';
+break;
+}
+?>
+</div>
+</body>
+</html>
+-------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<article>
+<h1>Mire se vine ne my cool webpage</h1>
+</article>
+</body>
+</html>
+
+
+-------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<article>
+<h1>Ne ofrojm shume sherbime</h1>
+<img src="https://informatics.sourceweb.ag/wp-content/uploads/2018/02/2118_pc-service.jpg"/>
+</article>
+</body>
+</html>
